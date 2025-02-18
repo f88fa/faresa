@@ -1,9 +1,9 @@
 <?php
 // معلومات الاتصال بقاعدة البيانات
 define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'faresa_db');
+define('DB_USERNAME', 'u298155993_antvamyfile');
+define('DB_PASSWORD', 'FARes1939@');
+define('DB_NAME', 'u298155993_antvamyfile');
 
 // محاولة الاتصال بقاعدة البيانات
 try {
