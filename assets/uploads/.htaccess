@@ -1,0 +1,10 @@
+Options -Indexes
+<FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+<FilesMatch "^.*\.(php|php\.*|phtml|php3|php4|php5|php6|php7|pht|phar|inc)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>

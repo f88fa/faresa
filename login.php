@@ -10,6 +10,11 @@ if(isset($_SESSION["user_id"])){
 
 // معالجة نموذج تسجيل الدخول
 if($_SERVER["REQUEST_METHOD"] == "POST"){
+    error_reporting(E_ALL);
+    ini_set('display_errors', 1);
+    
+    // طباعة البيانات للتحقق
+    echo "<pre>POST: "; print_r($_POST); echo "</pre>";
     $username = cleanInput($_POST["username"]);
     $password = $_POST["password"];
     
